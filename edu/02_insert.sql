@@ -1,5 +1,6 @@
 -- INSERT 문
 -- 신규 데이터를 저장하기 위해 사용하는 문
+
 INSERT INTO employees(
 -- 	emp_id (pk는 auto increment 적용되기 때문에 따로 설정x)
 	`name`
@@ -77,16 +78,3 @@ WHERE
 	AND birth = '2000-01-01'
 	AND hire_at = '2025-10-31'
 ;
-
-
-
-
-
-
-
-
-
-
-
-
-
